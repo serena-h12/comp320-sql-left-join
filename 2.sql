@@ -1,0 +1,1 @@
+select genre.name from genre left join track on track.genreid = genre.genreid where track.trackid is null;

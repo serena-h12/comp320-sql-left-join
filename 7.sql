@@ -1,0 +1,1 @@
+select customer.firstname, customer.latname, 

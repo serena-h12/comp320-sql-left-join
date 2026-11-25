@@ -1,0 +1,1 @@
+select playlist.playlistid, playlist.name from playlist left join playlisttrack on playlisttrack.playlistid = playlist.playlistid where playlisttrack.trackid is null;
